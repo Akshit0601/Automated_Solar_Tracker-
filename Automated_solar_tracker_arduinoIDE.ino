@@ -3,7 +3,7 @@ Servo servo;
 int value;
 int pos;
 int arr[181];
-int largest(int arr[], int n)
+int maximum(int arr[], int n)
 {
     int i;
     int max = arr[0];
@@ -40,7 +40,7 @@ void loop(){
     arr[i]=value;
     
   }
-  int max_value=largest(arr,180);
+  int max_value=maximum(arr,180);
   int pos_servo=position(arr,180);
   Serial.println(max_value);
   Serial.println(pos_servo);
