@@ -1,1 +1,1 @@
-# Automated_Solar_Tracker-
+# Automated_Solar_Tracker-This is an Arduino-based automated solar tracker project designed to maximise solar panel output.This project has been designed with the help of TinkerCAD.It uses an Arduino UNO to interface the servo motor and the Light Detecting Resistor (LDR).Though it detects the best possible position to maximise the solar ouput,it is not suitable for a light sensitive environment(light changing continuously) 
